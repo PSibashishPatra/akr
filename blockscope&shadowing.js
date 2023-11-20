@@ -34,13 +34,14 @@ var e = 22 ;
 
 
 //Illegal shadowing
-let d = 45 ;
+/* let d = 45 ;
 {
     var d = 30 ;
     console.log(d);
 
 }
 console.log(d);
+*/
 
 
 //Lexical block scope
