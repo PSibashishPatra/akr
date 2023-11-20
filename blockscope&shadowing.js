@@ -6,10 +6,11 @@ if(1) {
 }
 
 
+//shadowing 
 
 var a = 100 ;
-    let b = 200 ;
-    const c = 300 ;
+let b = 200 ;
+const c = 300 ;
 
 {
     var a = 10 ;
@@ -22,3 +23,5 @@ var a = 100 ;
 console.log(a);
 console.log(b); 
 console.log(c);
+
+
