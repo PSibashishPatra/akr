@@ -24,6 +24,15 @@ console.log(a);
 console.log(b); 
 console.log(c);
 
+
+//shadowing
+var e = 22 ;
+{
+    let e = 44 ;
+    console.log(e);
+}
+
+
 //Illegal shadowing
 let d = 45 ;
 {
@@ -32,3 +41,16 @@ let d = 45 ;
 
 }
 console.log(d);
+
+
+//Lexical block scope
+const f = 120 ;
+{
+    const f = 220 ;
+    {
+        const f = 330 ;
+        console.log(f);
+    }
+    console.log(f);
+}
+console.log(f);
