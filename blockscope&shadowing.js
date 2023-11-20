@@ -24,4 +24,11 @@ console.log(a);
 console.log(b); 
 console.log(c);
 
+//Illegal shadowing
+let d = 45 ;
+{
+    var d = 30 ;
+    console.log(d);
 
+}
+console.log(d);
