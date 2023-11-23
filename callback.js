@@ -3,7 +3,7 @@ setTimeout(function() {
     console.log("timer");
 },5000)
 
-
+z(x);
 
 function x(y){
     console.log("x");
@@ -14,3 +14,7 @@ x(function y(){
     console.log("y");
 
 })
+
+function z(x){
+    console.log("z");
+}
