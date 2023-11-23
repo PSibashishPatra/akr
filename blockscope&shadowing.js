@@ -44,7 +44,7 @@ console.log(d);
 */
 
 
-//Lexical block scope
+//scope chain using lexical block scope
 const f = 120 ;
 {
     const f = 220 ;
@@ -55,3 +55,4 @@ const f = 120 ;
     console.log(f);
 }
 console.log(f);
+
