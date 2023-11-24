@@ -6,7 +6,7 @@ function a() {
         console.log(d);
     }
 
-    console.log(d)
+    console.log(d);
 
 }
 var b = 10 ;
